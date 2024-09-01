@@ -1,0 +1,54 @@
+/* Background estetik dan styling utama */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://www.example.com/your-image.jpg'); /* Ganti dengan link image yang diinginkan */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.welcome-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: #cccccc;
+}
+
+.btn {
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #ff7e67;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff5a3c;
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    transform: translateY(2px);
+}

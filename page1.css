@@ -1,0 +1,43 @@
+/* Background untuk body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('image/lastbackground.jpeg');
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+/* Styling untuk container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling untuk video card dengan ukuran 2x lebih besar */
+.video-card {
+    background-color: rgba(0, 0, 0, 0.7); /* Background kotak semi-transparan */
+    padding: 40px; /* Padding lebih besar */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 800px; /* Ukuran maksimum dua kali lipat */
+    margin: 20px; /* Margin lebih besar */
+}
+
+/* Styling untuk video */
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Styling untuk h3 */
+h3 {
+    color: #ffffff; /* Warna font putih */
+    margin-top: 15px;
+}
